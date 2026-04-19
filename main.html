@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
@@ -7,9 +6,29 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <h1>MyBookList</h1>
+
+  <div class="form-group">
+    <input type="text" id="title" placeholder="Title">
+    <input type="text" id="author" placeholder="Author">
+    <input type="text" id="isbn" placeholder="ISBN#">
+    <button id="submit">Add Book</button>
+  </div>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>ISBN#</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="book-list"></tbody>
+  </table>
+
+  <script src="./script.js"></script>
 
 </body>
 

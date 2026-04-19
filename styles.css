@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete {
+  background: red;
+  color: white;
+}
